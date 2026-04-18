@@ -28,3 +28,14 @@ Projeyi kendi yerel ortamınızda çalıştırmak için aşağıdaki adımları 
 ```bash
 git clone [https://github.com/hakkikeman/mpgt-power-grid-analysis.git](https://github.com/hakkikeman/mpgt-power-grid-analysis.git)
 cd mpgt-power-grid-analysis
+```
+
+**2. Gereksinimleri Yükleyin:**
+```bash
+pip install -r requirements.txt
+```
+
+**3. Çalıştırın:**
+```bash
+python src/power_grid_analysis.py
+```         
