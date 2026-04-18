@@ -249,6 +249,8 @@ def main():
     # Veri seti dosyasının yolunu belirle (aynı dizinde olduğu varsayılır)
     dataset_path = os.path.join(
         os.path.dirname(os.path.abspath(__file__)),
+        "..",
+        "data",
         "power-US-Grid",
         "power-US-Grid.mtx"
     )
